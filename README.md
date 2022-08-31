@@ -7,5 +7,4 @@ Laboratorio 04, UI and Layouts fundamentals.
   3. [Layouts1](https://github.com/MelissaPerez09/Android-Basics/tree/main/TipTime)
 
 Laboratorio 05, Listas e imágenes.
-  1. [Layouts2]()
-  2. [RecyclerViews]()
+  1. [RecyclerViews](https://github.com/MelissaPerez09/Android-Basics/tree/main/Affirmations)
