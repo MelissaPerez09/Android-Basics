@@ -7,16 +7,16 @@ class Datasource() {
 
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
-            Affirmation(R.string.affirmation1, R.drawable.image1),
-            Affirmation(R.string.affirmation2, R.drawable.image2),
-            Affirmation(R.string.affirmation3, R.drawable.image3),
-            Affirmation(R.string.affirmation4, R.drawable.image4),
-            Affirmation(R.string.affirmation5, R.drawable.image5),
-            Affirmation(R.string.affirmation6, R.drawable.image6),
-            Affirmation(R.string.affirmation7, R.drawable.image7),
-            Affirmation(R.string.affirmation8, R.drawable.image8),
-            Affirmation(R.string.affirmation9, R.drawable.image9),
-            Affirmation(R.string.affirmation10, R.drawable.image10)
+            Affirmation(R.string.affirmation1, "https://imgur.com/Fz3YyBR.png"),
+            Affirmation(R.string.affirmation2, "https://imgur.com/qjOOur1.png"),
+            Affirmation(R.string.affirmation3, "https://imgur.com/1tA7Wmr.png"),
+            Affirmation(R.string.affirmation4, "https://imgur.com/FDtV4gW.png"),
+            Affirmation(R.string.affirmation5, "https://imgur.com/ofzqTyx.png"),
+            Affirmation(R.string.affirmation6, "https://imgur.com/drK6d85.png"),
+            Affirmation(R.string.affirmation7, "https://imgur.com/pTWNOv0.png"),
+            Affirmation(R.string.affirmation8, "https://imgur.com/QjzFQJx.png"),
+            Affirmation(R.string.affirmation9, "https://imgur.com/PI4JUqO.png"),
+            Affirmation(R.string.affirmation10, "https://imgur.com/zMsAs97.png")
         )
     }
 }
