@@ -11,3 +11,7 @@ _CC3087 Programación de plataformas móviles_
 
 `Laboratorio 06, Navegación.`
   - [Navigation](https://github.com/MelissaPerez09/Android-Basics/tree/main/Navigation)
+  
+`Laboratorio 09, Architecture Components.`
+  - [ArchComponents (Unit 3)](https://github.com/MelissaPerez09/Android-Basics/tree/main/ArchComponents)
+  - [Internet (Unit 4)](https://github.com/MelissaPerez09/Android-Basics/tree/main/Internet)
