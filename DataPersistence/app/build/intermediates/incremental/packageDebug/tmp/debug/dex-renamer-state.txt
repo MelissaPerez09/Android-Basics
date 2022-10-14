@@ -1,0 +1,4 @@
+#Fri Oct 14 10:59:10 CST 2022
+base.0=/Users/stephanie/Desktop/Universidad/Cuarto/Moviles/Android-Basics/DataPersistence/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
