@@ -1,0 +1,9 @@
+08:00:56.191 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+08:00:56.402 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+08:01:22.347 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 310ms, init: 0ms
+08:01:22.510 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace demo-friendlychat-android-default-rtdb status Active to Active
+08:52:56.560 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace demo-friendlychat-android, but the emulator is configured for demo-friendlychat-android-default-rtdb. To 
+opt-out of single project mode add/set the single_project_mode: false property in 
+the firebase.json emulators config. 
+08:52:56.665 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android successfully activated FBKV (SurveyIdle(0)) wait: 39ms, init: 0ms

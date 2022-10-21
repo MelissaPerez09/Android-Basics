@@ -1,0 +1,96 @@
+[debug] [2022-10-21T14:00:41.460Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T14:00:41.465Z] Command:       /usr/local/bin/firebase /Users/stephanie/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase emulators:start --project=demo-friendlychat-android
+[debug] [2022-10-21T14:00:41.465Z] CLI Version:   11.15.0
+[debug] [2022-10-21T14:00:41.465Z] Platform:      darwin
+[debug] [2022-10-21T14:00:41.465Z] Node Version:  v16.16.0
+[debug] [2022-10-21T14:00:41.477Z] Time:          Fri Oct 21 2022 08:00:41 GMT-0600 (Central Standard Time)
+[debug] [2022-10-21T14:00:41.478Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T14:00:41.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T14:00:41.612Z] > authorizing via signed-in user (per21385@uvg.edu.gt)
+[debug] [2022-10-21T14:00:42.477Z] java version "17.0.3" 2022-04-19 LTS
+
+[debug] [2022-10-21T14:00:42.478Z] Java(TM) SE Runtime Environment (build 17.0.3+8-LTS-111)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.3+8-LTS-111, mixed mode, sharing)
+
+[debug] [2022-10-21T14:00:42.483Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, database, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, database, storage"}}
+[info] i  emulators: Detected demo project ID "demo-friendlychat-android", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail. {"metadata":{"emulator":{"name":"hub"},"message":"Detected demo project ID \"demo-friendlychat-android\", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail."}}
+[debug] [2022-10-21T14:00:43.064Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-21T14:00:43.065Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-21T14:00:43.065Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-21T14:00:43.065Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-21T14:00:43.066Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-10-21T14:00:43.080Z] [hub] writing locator at /var/folders/hs/cwkb454s1r7dn6vjm5z7x2gh0000gn/T/hub-demo-friendlychat-android.json
+[debug] [2022-10-21T14:00:43.086Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/demo-friendlychat-android [none]
+[debug] [2022-10-21T14:00:43.689Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/demo-friendlychat-android 403
+[debug] [2022-10-21T14:00:43.689Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/demo-friendlychat-android {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-10-21T14:00:43.690Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-10-21T14:00:43.690Z] Failed to retrieve default database instance: {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Firebase project demo-friendlychat-android. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}},"response":{"statusCode":403}},"exit":1,"message":"HTTP Error: 403, The caller does not have permission","status":403},"status":500} {"metadata":{"emulator":{"name":"database"},"message":"Failed to retrieve default database instance: {\"name\":\"FirebaseError\",\"children\":[],\"exit\":2,\"message\":\"Failed to get Firebase project demo-friendlychat-android. Please make sure the project exists and your account has permission to access it.\",\"original\":{\"name\":\"FirebaseError\",\"children\":[],\"context\":{\"body\":{\"error\":{\"code\":403,\"message\":\"The caller does not have permission\",\"status\":\"PERMISSION_DENIED\"}},\"response\":{\"statusCode\":403}},\"exit\":1,\"message\":\"HTTP Error: 403, The caller does not have permission\",\"status\":403},\"status\":500}"}}
+[debug] [2022-10-21T14:00:43.691Z] database rules config:  [{"instance":"demo-friendlychat-android-default-rtdb","rules":"/Users/stephanie/Downloads/codelab-friendlychat-android-master/database.rules.json"}]
+[info] i  database: downloading firebase-database-emulator-v4.10.0.jar... {"metadata":{"emulator":{"name":"database"},"message":"downloading firebase-database-emulator-v4.10.0.jar..."}}
+[debug] [2022-10-21T14:00:43.707Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.10.0.jar 
+[debug] [2022-10-21T14:00:44.197Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.10.0.jar 200
+[debug] [2022-10-21T14:00:44.197Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.10.0.jar [stream]
+[debug] [2022-10-21T14:00:54.268Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-10-21T14:00:54.268Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-21T14:00:54.268Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2022-10-21T14:00:54.268Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/stephanie/.cache/firebase/emulators/firebase-database-emulator-v4.10.0.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning"],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"/Users/stephanie/.cache/firebase/emulators/firebase-database-emulator-v4.10.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\"],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2022-10-21T14:00:56.193Z] 08:00:56.191 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+ {"metadata":{"emulator":{"name":"database"},"message":"08:00:56.191 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started\n"}}
+[debug] [2022-10-21T14:00:56.403Z] 08:00:56.402 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+ {"metadata":{"emulator":{"name":"database"},"message":"08:00:56.402 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000\n"}}
+[info] i  storage: downloading cloud-storage-rules-runtime-v1.1.1.jar... {"metadata":{"emulator":{"name":"storage"},"message":"downloading cloud-storage-rules-runtime-v1.1.1.jar..."}}
+[debug] [2022-10-21T14:01:04.782Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.1.jar 
+[debug] [2022-10-21T14:01:05.040Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.1.jar 200
+[debug] [2022-10-21T14:01:05.040Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.1.jar [stream]
+[debug] [2022-10-21T14:01:19.292Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-10-21T14:01:20.419Z] Temp file directory for storage emulator: /var/folders/hs/cwkb454s1r7dn6vjm5z7x2gh0000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/hs/cwkb454s1r7dn6vjm5z7x2gh0000gn/T/firebase/storage/blobs"}}
+[info] i  ui: downloading ui-v1.11.1.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.1.zip..."}}
+[debug] [2022-10-21T14:01:20.436Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip 
+[debug] [2022-10-21T14:01:20.556Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip 200
+[debug] [2022-10-21T14:01:20.556Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.1.zip [stream]
+[debug] [2022-10-21T14:01:21.465Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-21T14:01:21.465Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-10-21T14:01:21.465Z] Starting Emulator UI with command {"binary":"node","args":["/Users/stephanie/.cache/firebase/emulators/ui-v1.11.1/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/stephanie/.cache/firebase/emulators/ui-v1.11.1/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-10-21T14:01:21.721Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-10-21T14:01:21.722Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2022-10-21T14:01:21.733Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=demo-friendlychat-android-default-rtdb
+[debug] [2022-10-21T14:01:21.733Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  \"rules\": {\n    \"messages\": {\n      \".read\": \"auth.uid != null\",\n      \".write\": \"auth.uid != null\"\n    }\n  }\n}\n"
+[debug] [2022-10-21T14:01:22.347Z] 08:01:22.347 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 310ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"08:01:22.347 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 310ms, init: 0ms\n"}}
+[debug] [2022-10-21T14:01:22.513Z] 08:01:22.510 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace demo-friendlychat-android-default-rtdb status Active to Active
+ {"metadata":{"emulator":{"name":"database"},"message":"08:01:22.510 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace demo-friendlychat-android-default-rtdb status Active to Active\n"}}
+[debug] [2022-10-21T14:01:22.607Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2022-10-21T14:01:22.607Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI            │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth     │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage  │
+└────────────────┴────────────────┴────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-10-21T14:52:56.586Z] 08:52:56.560 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace demo-friendlychat-android, but the emulator is configured for demo-friendlychat-android-default-rtdb. To 
+opt-out of single project mode add/set the single_project_mode: false property in 
+the firebase.json emulators config. 
+ {"metadata":{"emulator":{"name":"database"},"message":"08:52:56.560 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested \nnamespace demo-friendlychat-android, but the emulator is configured for demo-friendlychat-android-default-rtdb. To \nopt-out of single project mode add/set the single_project_mode: false property in \nthe firebase.json emulators config. \n"}}
+[debug] [2022-10-21T14:52:56.673Z] 08:52:56.665 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android successfully activated FBKV (SurveyIdle(0)) wait: 39ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"08:52:56.665 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - demo-friendlychat-android successfully activated FBKV (SurveyIdle(0)) wait: 39ms, init: 0ms\n"}}
