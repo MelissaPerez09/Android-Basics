@@ -18,3 +18,6 @@ _CC3087 Programación de plataformas móviles_
   
 `Laboratorio 10, Data Persistence.`
   - [DataPersistence](https://github.com/MelissaPerez09/Android-Basics/tree/main/DataPersistence)
+  
+ `Laboratorio 11, Firebase.`
+  - [Firebase](https://github.com/MelissaPerez09/Android-Basics/tree/main/Firebase)
